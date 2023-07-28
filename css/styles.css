@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.titlehandler{
+.titlehandler {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,78 +16,185 @@
   display: table;
 }
 
-html{
+html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-[class*="item-"]{
+[class*="item-"] {
   float: left;
 }
 
-.footer {    background-color: rgba(255, 255, 255, 0.372);
+.footer {
+  background-color: rgba(255, 255, 255, 0.372);
   color: #000000;
   text-align: center;
   font-size: 12px;
   padding: 15px;
 }
 
-  @media only screen and (max-width: 600px) {
-    /* Celular: */
-    .title {
-      background-color: rgb(0, 234, 255);
-      padding: 15px;
-      margin: 20px;
-      width: 90%;
-      border-radius: 20px;
-    }   
+@media only screen and (max-width: 600px) {
 
-    html {background-color: rgb(108, 233, 255);}
-
-    [class*="item-"]{
-      background-color: rgba(5, 168, 193, 0.781);
-      padding: 15px;
-      margin: 20px;
-      border-radius: 50px;
-    }
-  }
-  @media only screen and (min-width: 601px) {
-    /* Tablet: */
-    .title {
-      background-color: rgb(30, 255, 0);
-      padding: 15px;
-      margin: 20px;
-      width: 90%;
-      border-radius: 20px;
-    }   
-
-    html {background-color: rgb(157, 255, 148);}
-
-    [class*="item-"]{
-      background-color: rgba(36, 193, 5, 0.781);
-      padding: 15px;
-      margin: 20px;
-      width: 40%;
-      border-radius: 50px;
-    }
+  /* Celular: */
+  .title {
+    background-color: rgb(0, 234, 255);
+    padding: 15px;
+    margin: 20px;
+    width: 90%;
+    border-radius: 20px;
   }
 
-  @media only screen and (min-width: 900px) {
-    /* desktop: */
-    .title {
-      background-color: rgb(145, 145, 145);
-      padding: 15px;
-      margin: 20px;
-      width: 90%;
-      border-radius: 20px;
-    }    
-
-    html {background-color: rgb(191, 191, 191);}
-
-    [class*="item-"]{
-      background-color: rgba(225, 225, 225, 0.781);
-      padding: 15px;
-      margin: 4vw;
-      width: 25%;
-      border-radius: 50px;
-    }
+  html {
+    background-color: rgb(108, 233, 255);
   }
+
+  [class*="item-"] {
+    background-color: rgba(5, 168, 193, 0.781);
+    padding: 2vw;
+    margin: 20px;
+    width: 90%;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+
+  /* Tablet: */
+  .title {
+    background-color: rgb(30, 255, 0);
+    padding: 15px;
+    margin: 20px;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  html {
+    background-color: rgb(157, 255, 148);
+  }
+
+  [class*="item-"] {
+    background-color: rgba(36, 193, 5, 0.781);
+    padding: 2vw;
+    margin: 7vw;
+    border-radius: 50px;
+  }
+
+  .item-s-1 {
+    width: 8.33%;
+  }
+
+  .item-s-2 {
+    width: 16.66%;
+  }
+
+  .item-s-3 {
+    width: 25%;
+  }
+
+  .item-s-4 {
+    width: 33.33%;
+  }
+
+  .item-s-5 {
+    width: 41.66%;
+  }
+
+  .item-s-6 {
+    width: 50%;
+  }
+
+  .item-s-7 {
+    width: 58.33%;
+  }
+
+  .item-s-8 {
+    width: 66.66%;
+  }
+
+  .item-s-9 {
+    width: 75%;
+  }
+
+  .item-s-10 {
+    width: 83.33%;
+  }
+
+  .item-s-11 {
+    width: 91.66%;
+  }
+
+  .item-s-12 {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+  /* desktop: */
+  .title {
+    background-color: rgb(145, 145, 145);
+    padding: 2vw;
+    margin: 2vw;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  html {
+    background-color: rgb(191, 191, 191);
+  }
+
+  [class*="item-"] {
+    background-color: rgba(225, 225, 225, 0.781);
+    padding: 15px;
+    margin: 4vw;
+    border-radius: 50px;
+  }
+
+  .item-1 {
+    width: 8.33%;
+  }
+
+  .item-2 {
+    width: 16.66%;
+  }
+
+  .item-3 {
+    width: 25%;
+  }
+
+  .item-4 {
+    width: 33.33%;
+  }
+
+  .item-5 {
+    width: 41.66%;
+  }
+
+  .item-6 {
+    width: 50%;
+  }
+
+  .item-7 {
+    width: 58.33%;
+  }
+
+  .item-8 {
+    width: 66.66%;
+  }
+
+  .item-9 {
+    width: 75%;
+  }
+
+  .item-10 {
+    width: 83.33%;
+  }
+
+  .item-11 {
+    width: 91.66%;
+  }
+
+  .item-12 {
+    width: 100%;
+  }
+}
